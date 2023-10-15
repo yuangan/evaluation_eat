@@ -1,0 +1,111 @@
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W009_con_3_028.mp4:8.377645492553711 -2 8.213720321655273
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W009_sad_3_030.mp4:8.109813690185547 -2 8.186588287353516
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W009_sur_3_018.mp4:7.708325386047363 -2 8.236759185791016
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_fea_3_018.mp4:8.198488235473633 -2 7.9812541007995605
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M003_hap_3_008.mp4:7.1205058097839355 -2 7.701962947845459
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W009_hap_3_010.mp4:6.3412628173828125 -2 9.305116653442383
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W009_sur_3_007.mp4:8.559759140014648 -2 8.494138717651367
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_neu_1_037.mp4:8.606989860534668 -2 7.018100738525391
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_fea_3_003.mp4:7.654435157775879 -2 7.245222091674805
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_neu_1_029.mp4:9.763643264770508 -2 5.902977466583252
+pre_avg conf : 8.044086456298828
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M003_con_3_017.mp4:7.608018398284912 -2 7.808164119720459
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W009_hap_3_002.mp4:8.341207504272461 -2 8.020942687988281
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_dis_3_015.mp4:7.541288375854492 -2 8.09563159942627
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_neu_1_006.mp4:8.965133666992188 -2 7.434915542602539
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_hap_3_014.mp4:7.554313659667969 -2 7.209676742553711
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_hap_3_026.mp4:8.104373931884766 -2 7.030827045440674
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_sad_3_019.mp4:9.140227317810059 -2 6.881779670715332
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M003_hap_3_015.mp4:9.498083114624023 -2 6.589273452758789
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_sad_3_005.mp4:8.219443321228027 -2 7.1054487228393555
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_ang_3_021.mp4:8.439197540283203 -2 7.385813236236572
+pre_avg conf : 8.192606925964355
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_neu_1_025.mp4:6.272700309753418 -2 7.850839614868164
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_fea_3_001.mp4:8.509879112243652 -2 7.097517967224121
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_dis_3_008.mp4:8.390161514282227 -2 7.67102575302124
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M003_con_3_005.mp4:6.009556293487549 -2 7.616335391998291
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_sad_3_001.mp4:7.628933906555176 -2 6.93193244934082
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_fea_3_003.mp4:8.371393203735352 -2 6.774545192718506
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M003_neu_1_015.mp4:10.338581085205078 -2 6.246937274932861
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_sad_3_010.mp4:8.864852905273438 -2 7.103970050811768
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_sad_3_006.mp4:8.180192947387695 -2 7.1204328536987305
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W009_ang_3_009.mp4:7.354876518249512 -2 8.669060707092285
+pre_avg conf : 8.125776290893555
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M003_con_3_013.mp4:6.767529487609863 -2 8.186177253723145
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_fea_3_005.mp4:9.747688293457031 -2 6.554272174835205
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_hap_3_012.mp4:8.47990608215332 -2 7.058371067047119
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M003_fea_3_020.mp4:8.856204986572266 -2 7.359416961669922
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W009_con_3_025.mp4:6.802862167358398 -2 8.422080993652344
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M003_dis_3_014.mp4:8.962467193603516 -2 7.041140079498291
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W009_sur_3_027.mp4:9.454880714416504 -2 6.917920112609863
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_sad_3_021.mp4:8.985689163208008 -2 6.724739074707031
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M003_sur_3_003.mp4:8.20093059539795 -2 7.139333724975586
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_dis_3_025.mp4:7.973827362060547 -2 7.370147705078125
+pre_avg conf : 8.200132369995117
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_con_3_009.mp4:8.284887313842773 -2 7.486259460449219
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_con_3_015.mp4:7.7316670417785645 -2 7.209476947784424
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_sad_3_002.mp4:9.011983871459961 -2 6.984984397888184
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W009_hap_3_029.mp4:10.563425064086914 -2 6.4499831199646
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_con_3_017.mp4:7.721715450286865 -2 7.718974590301514
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_sur_3_025.mp4:8.097923278808594 -2 7.537078857421875
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_neu_1_039.mp4:8.037595748901367 -2 7.307946681976318
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_hap_3_005.mp4:8.711398124694824 -2 6.634814262390137
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_dis_3_012.mp4:8.053595542907715 -2 7.179834365844727
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W009_dis_3_017.mp4:7.34244441986084 -2 8.297142028808594
+pre_avg conf : 8.23123836517334
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M003_dis_3_016.mp4:9.144826889038086 -2 7.0567946434021
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W009_neu_1_031.mp4:6.357395172119141 -2 9.070374488830566
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_con_3_014.mp4:8.24671745300293 -2 7.6396660804748535
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_dis_3_010.mp4:8.171239852905273 -2 7.581796169281006
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_dis_3_005.mp4:7.3150835037231445 -2 7.146116256713867
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_neu_1_024.mp4:7.096681118011475 -2 7.7833170890808105
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W009_hap_3_004.mp4:7.847710609436035 -2 7.548810958862305
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_sad_3_015.mp4:8.337056159973145 -2 7.373257637023926
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_ang_3_001.mp4:9.278297424316406 -2 6.843739032745361
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_fea_3_013.mp4:8.886466026306152 -2 7.061933517456055
+pre_avg conf : 8.204056739807129
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W009_fea_3_020.mp4:9.238166809082031 -2 7.715704441070557
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M003_neu_1_010.mp4:8.133642196655273 -2 7.437389373779297
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_neu_1_034.mp4:8.989120483398438 -2 6.854816436767578
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M003_con_3_004.mp4:8.044485092163086 -2 7.3775553703308105
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M003_dis_3_015.mp4:8.715643882751465 -2 6.932622909545898
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W009_dis_3_020.mp4:8.440811157226562 -2 7.838256359100342
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_neu_1_035.mp4:6.625363826751709 -2 6.810563564300537
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M003_neu_1_017.mp4:8.066280364990234 -2 6.265497207641602
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M003_hap_3_009.mp4:8.679264068603516 -2 6.915960788726807
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W009_dis_3_012.mp4:7.11570930480957 -2 9.25868034362793
+pre_avg conf : 8.204169273376465
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W009_hap_3_014.mp4:7.683516979217529 -2 7.8107075691223145
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_sad_3_013.mp4:8.099720001220703 -2 7.861238479614258
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_sad_3_030.mp4:8.571109771728516 -2 7.12429666519165
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W009_ang_3_018.mp4:7.227545738220215 -2 8.748601913452148
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_sad_3_025.mp4:8.271015167236328 -2 6.929697513580322
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M003_fea_3_017.mp4:8.71973991394043 -2 7.546615123748779
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_hap_3_010.mp4:9.181326866149902 -2 7.127852439880371
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_sur_3_011.mp4:8.052783966064453 -2 6.8858418464660645
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_dis_3_019.mp4:8.732244491577148 -2 6.854887962341309
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_con_3_027.mp4:7.809363842010498 -2 7.58699369430542
+pre_avg conf : 8.208003044128418
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M003_sad_3_014.mp4:8.97701644897461 -2 6.923872470855713
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M003_sur_3_016.mp4:6.522823333740234 -2 7.871242523193359
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W009_fea_3_010.mp4:8.414444923400879 -2 7.618285179138184
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_sur_3_003.mp4:9.875537872314453 -2 6.250522136688232
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W009_neu_1_040.mp4:7.1315717697143555 -2 8.334672927856445
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W009_neu_1_033.mp4:7.651592254638672 -2 8.04310131072998
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_neu_1_018.mp4:7.900277614593506 -2 7.466843128204346
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_neu_1_035.mp4:7.838465213775635 -2 7.306469440460205
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_hap_3_011.mp4:8.534748077392578 -2 6.861186504364014
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_ang_3_029.mp4:8.152177810668945 -2 8.350645065307617
+pre_avg conf : 8.195987701416016
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_dis_3_003.mp4:7.9857587814331055 -2 7.172481536865234
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_hap_3_004.mp4:8.64671516418457 -2 6.930806636810303
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_fea_3_008.mp4:9.286766052246094 -2 7.062724590301514
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W009_dis_3_014.mp4:6.747952461242676 -2 8.215764999389648
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W009_hap_3_007.mp4:7.476090431213379 -2 8.272642135620117
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M003_ang_3_026.mp4:9.185687065124512 -2 6.646790504455566
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_fea_3_020.mp4:8.508710861206055 -2 7.539661407470703
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/W015_sur_3_007.mp4:8.26541519165039 -2 7.430361270904541
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_con_3_025.mp4:7.84607458114624 -2 7.3721842765808105
+../talking_head_testing/25fps_video/pcavs_crop/deepprompt_eam3d_all_final_313_v4_filter100/M030_fea_3_006.mp4:9.959762573242188 -2 6.201042175292969
+pre_avg conf : 8.215478897094727
+avg conf : 8.215478897094727
