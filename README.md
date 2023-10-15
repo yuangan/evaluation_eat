@@ -26,4 +26,4 @@ pip install face-alignment
     ```
     bash test_psnr_ssim_sync.sh deepprompt_eam3d_all_final_313 0
     ```
-The emotion accuracy of EmotionFan will be updated soon.
+The emotion accuracy code of EmotionFan will be updated soon.
