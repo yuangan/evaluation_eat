@@ -24,6 +24,5 @@ pip install face-alignment
 4. **Execution:**
    - For instance, if your results are located in the folder `./result/deepprompt_eam3d_all_final_313`, execute the following bash command:
     ```
-    bash test_psnr_ssim_sync.sh deepprompt_eam3d_all_final_313 0
+    bash test_psnr_ssim_sync_emoacc.sh deepprompt_eam3d_all_final_313 0
     ```
-The emotion accuracy code of EmotionFan will be updated soon.
