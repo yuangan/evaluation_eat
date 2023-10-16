@@ -1,4 +1,4 @@
-## Efficient Emotional Adaptation for Audio-Driven Talking-Head Generation: Evaluation Instructions
+## Benchmark and Evaluation of "Efficient Emotional Adaptation for Audio-Driven Talking-Head Generation"
 
 ### **Setup**
 
