@@ -1,13 +1,3 @@
-
-# CUDA_VISIBLE_DEVICES=1 python _acc_test.py -e --lr 4e-7 --name acc_testdata -m ./model_lr4e-5/self_relation-attention_24_99.0223 --reval /data4/test_data_for_emotion-fan/test_face --leval /data4/test_data_for_emotion-fan/test-face-test_face.txt
-# CUDA_VISIBLE_DEVICES=1 python _acc_test.py -e --lr 4e-7 --name acc_testdata -m ./model_lr4e-5/self_relation-attention_33_99.162 --reval /data4/test_data_for_emotion-fan/test_face --leval /data4/test_data_for_emotion-fan/test-face-test_face.txt
-# CUDA_VISIBLE_DEVICES=1 python _acc_test.py -e --lr 4e-7 --name acc_testdata -m ./model_lr4e-5/self_relation-attention_22_98.8827 --reval /data4/test_data_for_emotion-fan/test_face --leval /data4/test_data_for_emotion-fan/test-face-test_face.txt
-# CUDA_VISIBLE_DEVICES=1 python _acc_test.py -e --lr 4e-7 --name acc_testdata -m ./model_lr4e-5/self_relation-attention_13_97.6257 --reval /data4/test_data_for_emotion-fan/test_face --leval /data4/test_data_for_emotion-fan/test-face-test_face.txt
-
-# CUDA_VISIBLE_DEVICES=1 python _acc_test.py -e --lr 4e-7 --name acc_testdata -m ./model_lr4e-5/self_relation-attention_33_99.162 --reval /data4/test_data_for_emotion-fan/test2_face --leval /data4/test_data_for_emotion-fan/test-face-test2_face.txt
-
-# CUDA_VISIBLE_DEVICES=1 python _acc_test.py -e --lr 4e-7 --name acc_testdata -m ./model_lr4e-5/self_relation-attention_33_99.162 --reval /data4/MEAD_preprocess_for_ATVGnet/vid2 --leval /data4/MEAD_preprocess_for_ATVGnet/MEAD-lev3-face-vid2.txt
-
 import os
 import argparse
 from pickle import STRING
@@ -18,17 +8,13 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.backends.cudnn as cudnn
 from torchvision.transforms.autoaugment import AutoAugment
-from basic_code import load, util, networks
+from emotionfan_basiccode import load, util, networks
 import tqdm
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 emo_map =  { 0: 'Happy',1: 'Angry',2: 'Disgust',3: 'Fear',4: 'Sad',5: 'Neutral',6: 'Surprised', 7:'Contempt' }
 
 inf = 1e9+7
-
-flis = []
-with open('./data/txt/MEAD-lev123-validation-disid.txt') as f: 
-    flis = f.readlines()
 
 def main():
     parser = argparse.ArgumentParser(description='PyTorch Frame Attention Network Training')
@@ -50,17 +36,14 @@ def main():
     best_acc = 0
     at_type = ['self-attention', 'self_relation-attention'][args.at_type]
 
-    logger = util.Logger('./log_'+args.name+'/','fan_afew')
+    logger = util.Logger('./test_data_for_emotion/log_'+args.name+'/','emotion_acc')
     logger.print('The attention method is {:}, learning rate: {:}'.format(at_type, args.lr))
     
     ''' Load data '''
-    root_train = '/data4/MEAD_cropped_for_emotion-fan/train'
-    list_train = './data/txt/MEAD-face-train.txt'
-    batchsize_train= 1
     root_eval = args.reval
     list_eval = args.leval
     batchsize_eval= 100
-    train_loader, val_loader = load.afew_faces_fan(root_train, list_train, batchsize_train, root_eval, list_eval, batchsize_eval)
+    train_loader, val_loader = load.afew_faces_fan(root_eval, list_eval, 1, root_eval, list_eval, batchsize_eval)
     
     ''' Load model '''
     _structure = networks.resnet18_at(at_type=at_type)
@@ -78,7 +61,6 @@ def main():
     logger.print('frame attention network (fan) afew dataset, learning rate: {:}'.format(args.lr))
     
     for epoch in range(args.epochs):
-        # train(train_loader, model, optimizer, epoch,logger)
         acc_epoch = val(val_loader, model, at_type,logger)
         is_best = acc_epoch > best_acc
         if is_best:
@@ -191,8 +173,6 @@ def val(val_loader, model, at_type,logger,args = None):
             pred_score = model(vectors=output_store_fc, vm=weightmean_sourcefc, alphas_from1=output_alpha, index_matrix=index_matrix, phrase='eval', AT_level='second_level')
         
         pred_score = F.softmax(pred_score,dim=1)
-        # pred_score[:,5] = 0
-        # print(pred_score)
         cnt = [0,0,0,0,0,0,0,0]
         rig = [0,0,0,0,0,0,0,0]
         for idx,emo in enumerate(pred_score):
@@ -205,20 +185,12 @@ def val(val_loader, model, at_type,logger,args = None):
             cnt[tar_id] += 1
             if pred_id == tar_id : rig[tar_id] += 1
         print(cnt, rig)
-        # for idx,emo in enumerate(pred_score):
-        #     target_emo = target_vector[idx]
-        #     target_emo = emo_map[ int( target_emo.cpu().numpy() ) ]
 
-        #     id = emo.argmax().cpu().numpy()
-        #     print(emo)
-        #     emon = emo_map[ int(id) ]
-        #     print(emon)
-        #     with open('./_analysis.txt','a') as f:
-        #         f.write(flis[idx].split(' ')[0] + ' ' +  str(idx) + ' ' +  emon + ' ' + target_emo +'\n' )
-
-        #print(target_vector.cpu())
         res_fp = None
-        if args is not None : res_fp = open('../test_data_for_emotion/emoemo_general_testing/{}.txt'.format(args.save_name),'w')
+        if args is not None :
+            res_save_dir = 'result_emoacc'
+            os.makedirs( res_save_dir, exist_ok=True )
+            res_fp = open('{}/{}.txt'.format(res_save_dir, args.save_name),'w')
         acc_video = util.accuracy(pred_score.cpu(), target_vector.cpu(), topk=(1,))
         topVideo.update(acc_video[0], i + 1)
         logger.print(' *Acc@Video {topVideo.avg:.3f} '.format(topVideo=topVideo))
@@ -236,5 +208,3 @@ def val(val_loader, model, at_type,logger,args = None):
         return topVideo.avg
 if __name__ == '__main__':
     main()
-
-
