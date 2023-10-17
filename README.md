@@ -26,7 +26,13 @@ pip install face-alignment
    - Position your evaluation results in the `./result` folder.
 
 4. **Execution:**
-   - For instance, if your results are located in the folder `./result/deepprompt_eam3d_all_final_313`, execute the following bash command:
+   - For instance, if your sampled (100) test results are located in the folder `./result/deepprompt_eam3d_all_final_313`, execute the following bash command:
+     
     ```
     bash test_psnr_ssim_sync_emoacc.sh deepprompt_eam3d_all_final_313 0
+    ```
+   - If you want to test the whole 985 results in MEAD test set, execute the following bash command:
+    
+    ```
+    bash test_psnr_ssim_sync_emoacc_985.sh deepprompt_eam3d_all_final_313_985 0
     ```
