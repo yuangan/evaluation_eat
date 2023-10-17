@@ -69,6 +69,7 @@ def main():
         label_map = { 'sad' : 'Sad' , 'con' : 'Contempt' , 'fea' : 'Fear' , 'hap' : 'Happy' , 'dis' : 'Disgust' , 'sur' : 'Surprised' , 'ang' : 'Angry' , 'neu' : 'Neutral'  }
         vid_dir_list = glob.glob(out_face_path+'/*') 
         print(out_face_path)
+        os.makedirs(os.path.dirname(train_list_filename), exist_ok=True)
         with open(train_list_filename,'w') as f: 
             for dname in vid_dir_list: 
                 _ , dname = os.path.split(dname) 

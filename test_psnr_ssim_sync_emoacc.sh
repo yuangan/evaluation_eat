@@ -36,7 +36,8 @@ CUDA_VISIBLE_DEVICES=${device} python test_sync_conf.py --save_name ${name}_Eval
 
 ##----------------------------------------------##
 ### out of memory, require more than 3GB GPU
-CUDA_VISIBLE_DEVICES=${device} python test_emotion_acc.py --in_vid_path "../result/${name}" --save_name ${name}_Eval --emo_range_l 5 --emo_range_r 8 --gpu_id ${device}
+# CUDA_VISIBLE_DEVICES=${device} python test_emotion_acc.py --in_vid_path "../result/${name}" --save_name ${name}_Eval --emo_range_l 5 --emo_range_r 8 --gpu_id ${device} # test gt
+CUDA_VISIBLE_DEVICES=${device} python test_emotion_acc.py --in_vid_path "../result/${name}" --save_name ${name}_Eval --emo_range_l 10 --emo_range_r 13 --gpu_id ${device} # test eat
 ##----------------------------------------------##
 
 cd "../"
