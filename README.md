@@ -13,10 +13,14 @@ pip install face-alignment
 1. **Download Pre-trained Models:** 
    - Access the pre-trained models from [this link](https://drive.google.com/file/d/1qJdAphOQbMTnXTUlv7mMb1kRnCwQ2xDT/view?usp=sharing).
    - After downloading, unzip the files and place them into the `code` folder.
+  
+     ```unzip code.zip -d code```
 
 2. **Download Ground Truth Videos:** 
-   - Obtain the Ground Truth videos from [this link](https://drive.google.com/file/d/1zMQqb22Lc9ozykcrCjHJ4Hc_Cgom4tHs/view?usp=drive_link).
-   - Once downloaded, unzip the files and move them into the root directory (`./`).
+   - Obtain the cropped Ground Truth videos from [this link](https://drive.google.com/file/d/1zMQqb22Lc9ozykcrCjHJ4Hc_Cgom4tHs/view?usp=drive_link).
+   - Once downloaded, unzip the files and move them into the root directory with the command:
+     
+     ```unzip talking_head_testing.zip -d talking_head_testing```
 
 3. **Place Your Results:**
    - Position your evaluation results in the `./result` folder.
