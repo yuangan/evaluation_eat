@@ -121,8 +121,8 @@ if __name__ == '__main__':
     aud_rt = args.audio_path
     # aud_rt = '/data4/talking_head_testing/wavs_extract_from_newmead'
 
-    if '/*.mp4' not in args.fake_pth:
-        vlis = glob.glob(args.fake_pth + '/*.mp4')
+    if '*.mp4' not in args.fake_pth:
+        vlis = glob.glob( os.path.join( args.fake_pth, '*.mp4' ) )
     else :
         vlis = glob.glob(args.fake_pth)
     
